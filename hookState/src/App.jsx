@@ -11,6 +11,7 @@ import MyComponents from './component_imagen/MyComponents'
 import ComponentImagen from './component_imagen/ComponentImagen'
 import Rey_incognito from "./assets/reyes/rey_incognito.png";
 import ComponentStyle from './component_imagen/ComponentStyle'
+import ComponetSumar from './component_imagen/ComponetSumar'
 // import leogivildo from "../assets/reyes/rey_leogivildo.png";
 
 
@@ -67,6 +68,10 @@ function App() {
       <ComponentStyle >
 
       </ComponentStyle>
+
+      <div>
+        <ComponetSumar />
+      </div>
     </>
   )
 }
